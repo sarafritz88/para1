@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+   <link href="fruit.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id = "bg">
+    <div class = "container">
+    <ul id="scene">
+        <li class="layer" id="banana" data-depth="0.10"><img src="assets/Banana.png"></li>
+        <li class="layer" id="smoothie" data-depth="0.50"><img src="assets/smoothie.png"></li>
+        <li class="layer" id="strawberry" data-depth="0.70"><img src="assets/strawberrythis.png"></li>
+        <li class="layer" id="blueberry" data-depth="0.90"><img src="assets/Blueberry.png"></li>
+    </ul>
+
+</div>
+</div>
+<script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+</script>
+</body>
+</html>

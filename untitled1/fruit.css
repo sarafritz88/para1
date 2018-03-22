@@ -1,0 +1,42 @@
+html, body {
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container {
+    height: 50vh;
+    width: 100vw;
+
+
+
+}
+
+#smoothie {
+    text-align:center;
+
+    width: 100vw;
+}
+
+#strawberry {
+
+    width: 80vw;
+    margin-left: 15vw;
+}
+
+#blueberry {
+    height: 20vh;
+}
+#scene {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+#bg {
+    background: #000 url(assets/bg.png) no-repeat top center;
+
+
+}
